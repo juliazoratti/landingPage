@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menu bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#"> <img src="https://cdn.shopify.com/s/files/1/0282/3936/4141/files/GP_H_Cor_400x.png?v=1603591362"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#card0">Sobre o produto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#Card1">Porque comprar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#Card2">Onde comprar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#Card3">Objetivos</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+    <!-- /Menu bar -->
+
+    <!--Carrossel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+         
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0282/3936/4141/products/Snacksmandioca_2000x.jpg?v=1607454140" alt="Foto kit de snack">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0282/3936/4141/products/kitsnacksyukas_2000x.png?v=1607454140" alt="Foto kit de snack">
+          </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0282/3936/4141/products/PRIMEIRO-DETOX_2000x.png?v=1614282358" alt="Foto kit de suco detox">
+          </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0282/3936/4141/products/Crackermisto_2000x.jpg?v=1607454916" alt="Foto cracker misto">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--Carrossel-->
+    <!--Cards-->
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card p-3">
+            <div class="card-body" id="card0">
+                <h5 class="card-title">Kit sucos detox</h5>
+                <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0282/3936/4141/products/PRIMEIRO-DETOX_1600x.png?v=1614282358" alt="Foto kit detox">
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, quisquam tempora possimus nisi nam, maiores quaerat est corporis minima temporibus sunt obcaecati quod, illum ratione ipsum quos alias odit cum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body" id="Card1">
+                <h5 class="card-title">Por que comprar?</h5>
+                <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0282/3936/4141/products/Snacksmandioca_1600x.jpg?v=1607454140" alt="Foto kit snacks">
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est nam aut voluptatibus doloribus quasi dolorem libero iusto, atque sunt ad quod nostrum recusandae nobis tempore suscipit repellat, labore in?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body" id="Card2">
+                <h5 class="card-title">Onde comprar?</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0980322469036!2d-46.654126285022166!3d-23.56492238468107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1619105234902!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est nam aut voluptatibus doloribus quasi dolorem libero iusto, atque sunt ad quod nostrum recusandae nobis tempore suscipit repellat, labore in?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body" id="Card3">
+                <h5 class="card-title">Objetivos da marca</h5>
+                  <img class="card-img-top" width="300" height="300" src="https://images.vexels.com/media/users/3/142904/isolated/preview/b328ffdd1c50214fdfac8a447e74c5f8-logotipo-do-c-iacute-rculo-da-planta-by-vexels.png" alt="Foto kit snacks">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est nam aut voluptatibus doloribus quasi dolorem libero iusto, atque sunt ad quod nostrum recusandae nobis tempore suscipit repellat, labore in?</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    <!--/Cards-->
+    <!--Formulario-->
+    <div class="container">
+        <div class="row">
+          <div class="col-sm p-5">
+            <form>
+                <div class="form-group ml-5">
+                  <label for="exampleFormControlInput1">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Informe seu email">
+                </div>
+                <div class="form-group ml-5">
+                    <label for="exampleFormControlInput1">Nome Completo</label>
+                    <input type="email" class="form-control" id="nome" placeholder="Informe seu nome Completo">
+                  </div>
+                <div class="form-group ml-5">
+                  <label for="exampleFormControlSelect1">Selecione o que deseja receber por email:</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Promoções</option>
+                    <option>Anúncios</option>
+                    <option>Confirmação de compra</option>
+                    <option>Novidades</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-dark ml-5 ">Enviar</button>
+              </form>
+          </div>
+          <div class="col-sm p-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tIrZBsZhscs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    <!--Formulario-->
+    <!--Footer-->
+    <footer>
+
+        <div id="footer">
+        <a href=""><img width="70" height="70" src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="Logo instagram"></a>
+
+        <a href=""><img width="100" height="100" src="https://i.pinimg.com/originals/81/f3/9a/81f39a2ad1696dc2cf1a54036e14f63d.png" alt="Logo Facebook"></a>
+
+        <a href=""><img width="100" height="100" src="https://images.vexels.com/media/users/3/142904/isolated/preview/b328ffdd1c50214fdfac8a447e74c5f8-logotipo-do-c-iacute-rculo-da-planta-by-vexels.png" alt="Logo site"></a>
+        </div>
+
+        <p class="text-center">
+        Todos os direitos reservados para: Julia Zoratti &copy
+        </p>
+
+    </footer>
+    <!--/Footer-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
